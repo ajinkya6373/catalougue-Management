@@ -1,0 +1,26 @@
+.read-or-hide{
+    color: black;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#title{
+    font-size: 1.1rem;
+}
+#description{
+    overflow-y: "scroll";
+    height:"100px";
+    margin-bottom:"5px";
+}
+@media only screen and (max-width: 700px) {
+    #title{
+        font-size: 0.8rem;
+    }
+    #description{
+        font-size: 0.7rem;
+    }
+    #catLabel{
+        position: initial;
+        border: none;
+    }
+}
